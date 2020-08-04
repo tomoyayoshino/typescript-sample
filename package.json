@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/tomoyayoshino/typescript-sample/issues"
   },
-  "homepage": "https://github.com/tomoyayoshino/typescript-sample#readme"
+  "homepage": "https://github.com/tomoyayoshino/typescript-sample#readme",
+  "devDependencies": {
+    "typescript": "^3.7.5"
+  }
 }
