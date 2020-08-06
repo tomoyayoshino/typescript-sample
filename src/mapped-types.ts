@@ -1,0 +1,13 @@
+export {};
+
+type Profile = {
+  name: string;
+  age: number;
+};
+
+type PartialProfile = Partial<Profile>;
+type PropertyTypes = keyof Profile;
+
+// 新しい型を作り出すことができる
+type Optional<T> = { [P in keyof T]?: T[P] | null };
+type OptionalProfile = Optional<Profile>;
